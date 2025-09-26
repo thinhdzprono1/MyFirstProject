@@ -1,3 +1,6 @@
 {
-    "C_Cpp.default.compilerPath": "C:/msys64/mingw64/bin/g++.exe"
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "cpp": "C:/msys64/mingw64/bin/g++.exe -std=c++17 -Wall -O2 $fullFileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  }
 }
